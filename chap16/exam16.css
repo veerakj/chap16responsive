@@ -305,21 +305,24 @@ video {
  .list{
 		height: auto;
 	}
-#picdesc {
+}
+
+@media screen and (max-width: 850px) {
+  #picdesc {
     float: none;
     width: 80%;
     margin: auto;
     margin-top: 5%;
   }
- h2 {
+   h2 {
     text-align: center;
   }
  #chezy {
+  
     display: block;
     margin: auto;
   }
 }
-
 
 @media screen and (max-width: 800px) {
   #picture {
@@ -365,12 +368,8 @@ video {
   }
 }
 
-@media screen and (max-width: 1200px) {
-  #picdesc {
-    padding: 15px;
-    width: 50%;
-    margin-right: 8%;
-  }
+@media screen and ( min-width: 850px) and (max-width: 1200px) {
+  
   #chezy {
     margin-left: 8%;
     width: 200px;
@@ -380,14 +379,10 @@ video {
     margin-top: 4%;
     text-indent: 10%;
   }
-}
-
-@media screen and (max-width: 850px) {
-  #chezy {
-    margin-left: 3%;
-  }
   #picdesc {
-    margin-right: 3%;
+    padding: 15px;
+    width: 50%;
+    margin-right: 8%;
   }
 }
 @media screen and (max-width: 920px){
