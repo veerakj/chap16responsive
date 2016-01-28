@@ -323,7 +323,12 @@ video {
     margin: auto;
   }
 }
+@media screen and (max-width: 920px) {
 
+h2{
+  text-indent: 0;
+}
+}
 @media screen and (max-width: 800px) {
   #picture {
     background-size: 100% 90%;
